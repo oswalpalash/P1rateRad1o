@@ -15,7 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from pager.views import page,index,page_all
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    #path('page/', page),
+    path('page/all', page_all),
+    path('page/<capcode>/', page),
+    path('',index)
 ]
