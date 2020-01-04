@@ -1,0 +1,4 @@
+db.sqlite3
+__pycache__/*
+P1rateRad1o/__pycache__/*
+P1rateRad1o/*.pyc
