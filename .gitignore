@@ -1,4 +1,9 @@
 db.sqlite3
 __pycache__/*
+*/__pycache__/*
+*/*.pyc
 P1rateRad1o/__pycache__/*
 P1rateRad1o/*.pyc
+pager/*.pyc
+pager/__pycache__/*
+pager/migrations/*
